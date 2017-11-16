@@ -7,11 +7,11 @@ chrome.browserAction.onClicked.addListener(function (tab) {
         code: `document.querySelectorAll('article > div > div > div > div:nth-child(1) > img:nth-child(1)')[0].src;`
       }, getInstagram);
     } else {
-      chrome.tabs.executeScript({ // History Photo
+      chrome.tabs.executeScript({ // Stories Photo
         code: `document.querySelectorAll('div.ReactModalPortal > div > div > div > div.inner.ril-inner > img')[0].src;`
       }, getInstagram);
 
-      chrome.tabs.executeScript({ // History Video
+      chrome.tabs.executeScript({ // Stories Video
         code: `document.querySelectorAll('div.ReactModalPortal > div > div > div > div.inner.ril-inner > div.image-current.ril-image-current > div > video')[0].src;`
       }, getInstagram);
     }
