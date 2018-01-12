@@ -1,0 +1,28 @@
+{
+  "name": "wanna",
+  "version": "2.0.0",
+  "description": "A Chrome Extension for download things",
+  "main": "wanna.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valsaven/Wanna.git"
+  },
+  "keywords": [
+    "downloader",
+    "chrome",
+    "javascript",
+    "chrome-extension"
+  ],
+  "author": "Val Saven <val.saven@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/valsaven/Wanna/issues"
+  },
+  "homepage": "https://github.com/valsaven/Wanna#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}
