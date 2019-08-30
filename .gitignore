@@ -19,3 +19,4 @@ node_modules/
 !.vscode/extensions.json
 .history
 codealike.json
+dist

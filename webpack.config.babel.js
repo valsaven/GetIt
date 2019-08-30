@@ -1,7 +1,7 @@
 import webpack from 'webpack';
 import path from 'path';
 
-import CleanWebpackPlugin from 'clean-webpack-plugin';
+import { CleanWebpackPlugin } from 'clean-webpack-plugin';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
 
 const config = {
@@ -20,7 +20,7 @@ const config = {
     ],
   },
   plugins: [
-    new CleanWebpackPlugin(['dist']),
+    new CleanWebpackPlugin(),
     new CopyWebpackPlugin([
       {
         from: 'static',
