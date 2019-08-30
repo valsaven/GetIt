@@ -15,10 +15,17 @@ chrome.browserAction.onClicked.addListener(function (tab) {
         code: `document.querySelector('video > source').src;`
       }, getFile);
     }
-  } if (tab.url.includes('z0r.de')) {
-    console.log('z0r');
+  }
+
+  if (tab.url.includes('z0r.de')) {
     chrome.tabs.executeScript({
       code: `document.querySelector('body > object').data;`
+    }, getFile);
+  }
+
+  if (tab.url.includes('twitter')) {
+    chrome.tabs.executeScript({
+      code: `document.querySelector('img[alt="Image"]').src;`
     }, getFile);
   } else {
     console.log('Nothing to download...');
