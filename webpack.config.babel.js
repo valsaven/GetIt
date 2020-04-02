@@ -5,9 +5,9 @@ import { CleanWebpackPlugin } from 'clean-webpack-plugin';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
 
 const config = {
-  entry: './src/wanna.js',
+  entry: './src/getit.js',
   output: {
-    filename: 'wanna.js',
+    filename: 'getit.js',
     path: path.resolve(__dirname, 'dist'),
   },
   module: {

@@ -1,15 +1,15 @@
 {
-  "name": "wanna",
-  "version": "2.0.0",
+  "name": "getit",
+  "version": "2.0.1",
   "description": "A Chrome Extension for download things",
-  "main": "wanna.js",
+  "main": "getit.js",
   "scripts": {
     "dev": "webpack --mode development --config webpack.config.babel.js",
     "build": "webpack --mode production --config webpack.config.babel.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/valsaven/Wanna.git"
+    "url": "git+https://github.com/valsaven/GetIt.git"
   },
   "keywords": [
     "downloader",
@@ -20,17 +20,17 @@
   "author": "Val Saven <val.saven@gmail.com>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/valsaven/Wanna/issues"
+    "url": "https://github.com/valsaven/GetIt/issues"
   },
-  "homepage": "https://github.com/valsaven/Wanna#readme",
+  "homepage": "https://github.com/valsaven/GetIt#readme",
   "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "babel-loader": "^8.0.6",
+    "@babel/core": "^7.9.0",
+    "babel-loader": "^8.1.0",
     "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
     "clean-webpack-plugin": "^3.0.0",
-    "copy-webpack-plugin": "^5.0.4",
-    "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.7"
+    "copy-webpack-plugin": "^5.1.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
   }
 }
