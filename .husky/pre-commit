@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npm run build
+7z a ./release/get-it.zip ./dist/*
+git add ./release/get-it.zip
