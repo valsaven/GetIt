@@ -29,8 +29,8 @@
   },
   "homepage": "https://github.com/valsaven/GetIt#readme",
   "devDependencies": {
-    "@parcel/config-webextension": "^2.3.1",
+    "@parcel/config-webextension": "^2.3.2",
     "husky": "^7.0.4",
-    "parcel": "^2.3.1"
+    "parcel": "^2.3.2"
   }
 }
