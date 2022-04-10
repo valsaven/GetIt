@@ -1,0 +1,25 @@
+{
+  "name": "GetIt",
+  "description": "Help you download different things.",
+  "version": "2.1.0",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["getit.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab",
+    "downloads"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "author": "Val Saven <val.saven@gmail.com>",
+  "browser_action": {
+    "default_icon": "icons/icon128.png",
+    "default_title": "GetIt!"
+  }
+}

@@ -18,6 +18,7 @@ node_modules/
 !.vscode/launch.json
 !.vscode/extensions.json
 .history
-codealike.json
 dist
 .idea
+.cache
+.parcel-cache
